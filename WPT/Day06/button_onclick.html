@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click!!</title>
+    <style>
+
+        button{
+            display: block;
+            padding: 50px 140px;
+            background-color: #eca5a5;
+            border-radius: 10px;
+            border-color: #ddd;
+            font-size: 40px;
+
+        }
+        #b1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            color: rgb(122, 18, 241);
+            height: 100vh;
+            background: #ffffff;
+            
+        }
+
+    </style>
+</head>
+<body>
+    
+   <div id="b1">
+     <button onclick = countClicks()>Click Me!!!</button>
+    
+    <p>You Clicked  <span id="clickCount">0 </span>  Times!</p>
+   </div>
+
+    <script>
+        let clicks = 0;
+        function countClicks(){
+            clicks++;
+            document.getElementById("clickCount").textContent = clicks;
+
+        }
+    </script>
+</body>
+</html>

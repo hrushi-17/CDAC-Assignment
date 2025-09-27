@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <title>Callback</title>
+  <h1 style="background-color: #df9898;">JavaScript Functions</h1>
+  <h2 style="background-color: antiquewhite;">setInterval() with a Callback</h2>
+
+  <p>Using setInterval() to display the time every second (100 milliseconds).</p>
+
+  <h1 id="demo"></h1>
+
+  <script>
+    setInterval(myFunction, 100);
+
+    function myFunction() {
+      let d = new Date();
+      document.getElementById("demo").innerHTML =
+        d.getHours() + ":" +
+        d.getMinutes() + ":" +
+        d.getSeconds();
+    }
+
+    //myFunction();
+  </script>
+
+</body>
+
+</html>

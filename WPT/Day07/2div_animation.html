@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 div animation</title>
+    <style>
+        .main {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border: 2px solid rgb(190, 190, 190);
+            border-radius: 27px;
+        }
+
+        .Button {
+            width: 500px;
+            height: auto;
+            border: 2px solid rgb(190, 190, 190);
+            border-radius: 27px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0px;
+            margin-top: 10px;
+        }
+        button{
+            border: none;
+            background-color: rgb(51, 255, 58);
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        #box1 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: red;
+            position: absolute;
+            border-radius: 100%;
+        }
+
+        #box2 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: rgb(248, 28, 28);
+            position: absolute;
+            margin-left: 450px;
+            border-radius: 100%;
+        }
+
+        #box3 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: rgb(248, 28, 28);
+            position: absolute;
+            margin-top: 450px;
+            border-radius: 100%;
+        }
+
+        #box4 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: rgb(248, 28, 28);
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 450px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+    </div>
+    <div class="Button">
+        <button onclick="move1(),move2(),move3(),move4()">Click Me!!</button>
+        <button onclick="move1()">Box 1</button>
+        <button onclick="move2()">Box 2</button>
+        <button onclick="move3()">Box 3</button>
+        <button onclick="move4()">Box 4</button>
+    </div>
+
+    <script>
+        function move1() {
+            let ele = document.getElementById("box1");
+            let id = 0;
+            let pos = 0;
+            id = setInterval(call, 5)
+            function call() {
+                if (pos == 450) {
+                    clearInterval(id);
+                }
+
+                else {
+                    pos++
+                    ele.style.top = pos + "px";
+                    ele.style.left = pos + "px";
+                }
+            }
+
+        }
+
+        function move2() {
+            let ele = document.getElementById("box2");
+            let id = 0;
+            let top = 450;
+            let left = 0;
+            id = setInterval(call, 5)
+            function call() {
+                if (left==450) {
+                    clearInterval(id); // Stop when back at top
+                } else {
+                    top--;
+                    left++;
+                    ele.style.bottom = top + "px";
+                    ele.style.right = left + "px";
+                }
+            }
+        }
+        function move3() {
+            let ele = document.getElementById("box3");
+            let id = 0;
+            let top = 0;
+            let left = 0;
+            id = setInterval(call, 5)
+            function call() {
+                if (left==450) {
+                    clearInterval(id); // Stop when back at top
+                } else {
+                    top--;
+                    left++;
+                    ele.style.top = top + "px";
+                    ele.style.left = left + "px";
+                }
+            }
+        }
+
+        function move4() {
+            let ele = document.getElementById("box4");
+            let id = 0;
+            let top = 0;
+            let left = 0;
+            id = setInterval(call, 5)
+            function call() {
+                if (left==450) {
+                    clearInterval(id); // Stop when back at top
+                } else {
+                    top--;
+                    left++;
+                    ele.style.top = top + "px";
+                    ele.style.right = left + "px";
+                }
+            }
+        }
+        // move();
+        // move2();
+        // move3();
+        // move4();
+    </script>
+</body>
+
+</html>

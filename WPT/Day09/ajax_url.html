@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Json</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="showdata()">Click Here for Data</button>
+    <!-- <div id="getData"></div> -->
+
+    
+    <table >
+        <thead>
+            
+            <tr>
+                <th>ID</th>
+                <th>JSON Table</th>
+            </tr>
+        </thead>
+        <tbody id="getData">
+
+        </tbody>
+    </table>
+
+    <script>
+        function showdata() {
+            let req = new XMLHttpRequest();
+
+            req.open("GET", "https://jsonplaceholder.typicode.com/posts", true);
+            req.send();
+
+            req.onload = function () {
+                // document.querySelector("#getData").innerText=this.responseText;
+                console.log(this.responseText)
+
+                let jsonObj = JSON.parse(this.responseText);
+                let Jobj = '';
+
+                for (let i = 0; i < jsonObj.length; i++) {
+
+                    Jobj += `<tr><td> id: ${jsonObj[i].id} </td>
+                                 <td> Title: ${jsonObj[i].title} </td>
+                            </tr>`;
+                    document.querySelector("#getData").innerHTML = Jobj;
+                }
+
+            }
+        }
+    </script>
+</body>
+
+</html>

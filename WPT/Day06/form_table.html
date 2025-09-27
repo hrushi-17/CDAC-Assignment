@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+
+        }
+        #Main{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .FormContainer {
+            text-align: center;
+            margin-top: -8px;
+            margin-bottom: 10px ;
+            border: 2px solid #dd8d79;
+            border-radius: 20px;
+            width: fit-content;
+            padding: 20px;
+        
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            text-align: left;
+            padding: 4px 0px;
+        }
+
+        input,
+        textarea {
+            width: 300px;
+            padding: 6px;
+            margin-top: 2px;
+            border: 1px solid #e7e2e2;
+            border-radius: 3px;
+        }
+
+        button {
+            margin: 10px;
+            background-color: rgb(255, 151, 119);
+            padding: 7px 14px;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff2b1c;
+        }
+
+        th {
+            background-color: #dd8d79;
+            color: #fff;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Employee Data</h1>
+    <div id="Main">
+        <div class="FormContainer">
+            <label for="fname">FirstName:</label>
+
+            <input type="text" name="fname" id="fname" placeholder="Pranav" required>
+            <br>
+            <label for="lname">LastName:</label>
+
+            <input type="text" name="lname" id="lname" placeholder="Singh" required>
+            <br>
+            <label for="email">EmailID: </label>
+
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+            <br>
+            <label for="dob">Date of Birth:</label>
+
+
+            <input type="date" name="dob" id="dob" placeholder="01/01/2001" required>
+            <br>
+            <button type="reset">Clear</button>
+            <button type="submit" onclick="addData()">Submit</button>
+        </div>
+    </div>
+    <div>
+        <table id="outputable">
+            <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>EmailID</th>
+            <th>DateofBirth</th>
+            <th>Action</th>
+
+            </tr>
+
+        </table>
+    </div>
+    <script>
+
+        function addData(){
+            let FirstName = document.getElementById("fname").value;
+            let LastName = document.getElementById("lname").value;
+            let EmailID = document.getElementById("email").value;
+            let DateofBirth  = document.getElementById("dob").value;
+            
+            let table = document.getElementById("outputable");
+            let newRow = table.insertRow(table.rows.length);
+
+            newRow.insertCell(0).innerHTML = FirstName;
+            newRow.insertCell(1).innerHTML = LastName;
+            newRow.insertCell(2).innerHTML = EmailID;
+            newRow.insertCell(3).innerHTML = DateofBirth;
+            newRow.insertCell(4).innerHTML = '<button onclick = "editData(this)">Edit</button> '+ '<button onclick = "deleteData(this)">Delete</button>'
+
+            clearInputs();
+        }
+
+        function editData(button){
+
+            let row = button.parentNode.parentNode;
+
+            let FirstName = row.cells[0]
+            let LastName = row.cells[1]
+            let EmailID = row.cells[2]
+            let DateofBirth = row.cells[3]
+
+            let fname = prompt("Enter First Name:" ,FirstName.innerHTML)
+            let lname = prompt("Enter Last Name:" ,LastName.innerHTML)
+            let email = prompt("Enter email:" ,EmailID.innerHTML)
+            let dob = prompt("Enter DOB:" ,DateofBirth.innerHTML)
+
+            FirstName.innerHTML = fname;
+            LastName.innerHTML = lname;
+            EmailID.innerHTML = email;
+            DateofBirth.innerHTML = dob;
+
+            
+        }
+
+        function deleteData(button) {
+
+            // Get the parent row of the clicked button
+            let row = button.parentNode.parentNode;
+
+            // Remove the row from the table
+            row.parentNode.removeChild(row);
+        }
+
+        function clearInputs() {
+
+            // Clear input fields
+            document.getElementById("fname").value = "";
+            document.getElementById("lname").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("dob").value = "";
+        }
+    </script>
+</body>
+
+</html>

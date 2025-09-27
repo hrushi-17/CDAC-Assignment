@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Json</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="number" name="" id="num">
+    <button onclick="showdata()">Search</button>
+    <!-- <div id="getData"></div> -->
+
+    
+    <table >
+        <thead>
+            
+            <tr>
+                <th>ID</th>
+                <th>JSON Table</th>
+            </tr>
+        </thead>
+        <tbody id="getData">
+
+        </tbody>
+    </table>
+
+    <script>
+        function showdata() {
+
+            let num = document.getElementById("num").value;
+            console.log(num);
+            let req = new XMLHttpRequest();
+
+            req.open("GET", `https://jsonplaceholder.typicode.com/posts/${num}`, true);
+            req.send();
+            
+            
+
+
+            req.onload = function () {
+                // document.querySelector("#getData").innerText=this.responseText;
+                // console.log(this.responseText)
+
+                let jsonObj = JSON.parse(this.responseText);
+                let Jobj = '';
+
+               
+                // if(num == jsonObj.id){
+                //    Jobj = `<tr><td> id: ${jsonObj.id} </td><td> Title: ${jsonObj.title} </td> </tr>`;
+                //     document.querySelector("#getData").innerHTML = Jobj;
+                // }
+                // else{
+                //     document.getElementById("getData").innerText = "Sorry!!, Plz Enter Correct ID ";
+                // }
+
+                try{
+                   if(num == jsonObj.id){
+                   Jobj = `<tr><td> id: ${jsonObj.id} </td><td> Title: ${jsonObj.title} </td> </tr>`;
+                    document.querySelector("#getData").innerHTML = Jobj;
+                }
+                else{
+                throw e;}
+                }
+                catch(e){
+                     document.getElementById("getData").innerText = e+" ----  Sorry!!, Plz Enter Correct ID ";
+                }
+
+                
+        }
+    }
+    </script>
+</body>
+
+</html>

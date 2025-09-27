@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Table</title>
+    <style>
+
+    </style>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    Maths Table
+    <br>
+    Enter the num: <input type="number" id="num">
+    <br>
+    start from: <input type="number" id="from">
+    <br>
+    end to: <input type="number" id="to">
+    <br>
+    <button id="click">Show</button>
+    <p id="result"></p>
+
+    <table>
+
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            $("#click").click(function () {
+                let n = $("#num").val();
+                let a = $("#from").val();
+                let b = $("#to").val();
+                let ans;
+                let res = '';
+
+                for (let i = a; i <= b; i++) {
+                    ans = n * i;
+                    console.log(ans)
+                    res += `${n} * ${i} = ${ans}<br>`;
+                }
+                $("#result").html(res)
+
+            })
+        })
+    </script> -->
+
+    <script>
+        $(document).ready(function () {
+            $("#click").click(function () {
+                let n = parseInt($("#num").val());
+                let a = parseInt($("#from").val());
+                let b = parseInt($("#to").val());
+
+                // Clear previous results
+                $("#result").html('');
+                $("#outputable tbody").empty();
+
+                // Build table rows
+                for (let i = a; i <= b; i++) {
+                    let ans = n * i;
+                    let row = `<tr><td>${n} × ${i} = ${ans}</td></tr>`;
+                    $("#outputable tbody").append(row);
+                }
+            });
+        });
+    </script>
+    <table id="outputable">
+        <thead>
+            <th>multiplication Table</th>
+        </thead>
+        <tbody> 
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>

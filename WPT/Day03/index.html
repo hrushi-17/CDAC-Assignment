@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        h1{
+            color: #d84343;
+            text-align: center;
+        }
+        .list1{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .list2{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+             text-align: center;
+             list-style-type: none;
+             border: 1px solid rgb(156, 156, 156);
+             width: 200px;
+            margin: 30px;
+            padding: 30px;
+            border-radius: 30px;
+            background-color: rgb(239, 228, 248);
+        }
+        button{
+              margin: 5px;
+              border: rgb(108, 85, 189) ;
+              background-color: rgb(108, 85, 189);
+              color: white;  
+              border-radius: 30px;
+              padding: 15px 10px ;
+              cursor: pointer;
+              width: 100%;
+        }
+        
+        button a{
+            color: white;
+            text-decoration: none;
+            margin: 30px 10px;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe{
+            height: 80vh;
+            width: 600px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Company Name</h1>
+
+    <div class="main">
+        <div class="list1">
+        <ul>
+        <li><a href="login.html"><button>Login page</button></a></li>
+        <li><a href="register.html"><button>Register page</button></a></li>
+        <li><a href="changepassword.html"><button>Chance Password</button></a></li>
+    </ul>
+    </div>
+    <div class="list2">
+        <iframe src="/register.html" frameborder="0"></iframe>
+    </div>
+    </div>
+    
+</body>
+</html>

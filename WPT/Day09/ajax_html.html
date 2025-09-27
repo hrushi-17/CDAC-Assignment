@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Component</title>
+</head>
+<body>
+
+    <button onclick="showdata()">Click Me to view Detail!!</button>
+    <br>
+    <div id="request"> <style></style></div>
+
+    <script>
+
+        function showdata(){
+
+            let data = new XMLHttpRequest();
+            data.open("GET" , "data.txt", true);
+            data.send();
+
+            data.onload = function(){
+
+                document.querySelector("#request").innerText= this.responseText;
+                console.log(this.responseText);
+            }
+            
+            
+
+        }
+    </script>
+    
+</body>
+</html>

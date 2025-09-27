@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmay</title>
+    <style>
+          h1{
+            color: #d84343;
+            text-align: center;
+        }
+        .list{
+            border: 1px solid rgb(224, 206, 224);
+            border-radius: 10%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+        }
+        .form1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form3{
+            margin: 20px;
+        }
+        .form4{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .form5{
+            margin: 0px 20px;
+        }
+        label{
+            font-size: 20px;
+            color: rgb(102, 61, 156);
+            font-weight: bolder;
+
+        }
+        input[type="text"], input[type ="password"],input[type ="radio"],input[type ="checkbox"], textarea{
+            border: 1px solid rgb(204, 189, 238);
+            padding: 10px 15px;
+        }
+        button,input[type="reset"]{
+              margin: 5px;
+              border: rgb(108, 85, 189) ;
+              background-color: rgb(108, 85, 189);
+              color: white;  
+              border-radius: 15px;
+              padding: 15px 10px ;
+              cursor: pointer;
+              width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" class="form1">
+        <div class="list">
+            <h1>Register Form</h1>
+
+        <br><br>
+        <label for="name: ">Enter the username </label><br>
+        <input type="text" name="name" placeholder="Eg. John Doe">
+
+        <br><br>
+        <label for="password">Enter the password</label><br>
+        <input type="password" name="password">
+
+        <br><br>
+        <div class="form2">
+            <label for="train">choose gender</label><br>
+            <input type="radio" name="train">male <br>
+            <input type="radio" name="train">female <br>
+            <input type="radio" name="train">other <br>
+        </div>
+
+        <br><br>
+        <div class="form2">
+            <label for="language">select the language</label><br>
+        <input type="checkbox" name="train">english <br>
+        <input type="checkbox" name="train">hindi <br>
+        <input type="checkbox" name="train">marathi <br>
+        </div>
+
+        <div class="form3">
+            <label for="discription">Enter the discription</label><br><br>
+            <textarea row="50" col="50" value="welcome!"></textarea>
+        </div>
+
+        <br><br>
+            <div class="form4">
+                <div class="form5">
+                    <a href="login.html">
+                    <button type="button">submit</button>
+                </a>
+                </div>
+                <div class="form5">
+                    <input type="reset">
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+</body>
+</html>

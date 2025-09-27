@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX in Jquery</title>
+</head>
+<body>
+
+    <button id="loadbtn">Click Me </button>
+    <br>
+    <div id="request"> <style></style></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        // function showdata(){
+
+        //     let data = new XMLHttpRequest();
+        //     data.open("GET" , "data.txt", true);
+        //     $("").load()
+        //     data.send();
+
+        //     data.onload = function(){
+
+        //         document.querySelector("#request").innerText= this.responseText;
+        //         console.log(this.responseText);
+        //     }
+            
+            
+
+        // }
+
+        $(document).ready(function(){
+            $("#loadbtn").click(function(){
+
+                $("#request").load("data.txt", function(response, status, abc ){
+
+                    if(status === "sucess"){
+                        console.log("Content Loaded Sucessfully!!")
+                    }
+                    else if(status === "error"){
+                        console.log("Error,Finding file")
+                    }
+                })
+            })
+        })
+    </script>
+    
+</body>
+</html>
