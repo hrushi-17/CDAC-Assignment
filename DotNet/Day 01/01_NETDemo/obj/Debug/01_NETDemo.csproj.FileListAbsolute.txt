@@ -1,0 +1,8 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\bin\Debug\01_NETDemo.exe.config
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\bin\Debug\01_NETDemo.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\bin\Debug\01_NETDemo.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\obj\Debug\01_NETDemo.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\obj\Debug\01_NETDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\obj\Debug\01_NETDemo.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\obj\Debug\01_NETDemo.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_NETDemo\obj\Debug\01_NETDemo.exe.config

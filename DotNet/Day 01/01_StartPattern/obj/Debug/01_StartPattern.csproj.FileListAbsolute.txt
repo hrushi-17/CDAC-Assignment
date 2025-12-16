@@ -1,0 +1,8 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\bin\Debug\01_StartPattern.exe.config
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\bin\Debug\01_StartPattern.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\bin\Debug\01_StartPattern.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\obj\Debug\01_StartPattern.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\obj\Debug\01_StartPattern.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\obj\Debug\01_StartPattern.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\obj\Debug\01_StartPattern.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\01_StartPattern\obj\Debug\01_StartPattern.exe.config
