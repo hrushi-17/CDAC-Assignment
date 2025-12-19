@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\bin\Debug\net8.0\14_Demo_Properties.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\bin\Debug\net8.0\14_Demo_Properties.deps.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\bin\Debug\net8.0\14_Demo_Properties.runtimeconfig.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\bin\Debug\net8.0\14_Demo_Properties.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\bin\Debug\net8.0\14_Demo_Properties.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.AssemblyInfo.cs
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\refint\14_Demo_Properties.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\14_Demo_Properties.genruntimeconfig.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\14_Demo_Properties\obj\Debug\net8.0\ref\14_Demo_Properties.dll
