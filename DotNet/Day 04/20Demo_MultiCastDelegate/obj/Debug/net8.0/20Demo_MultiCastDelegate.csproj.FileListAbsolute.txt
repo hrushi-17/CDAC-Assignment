@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\bin\Debug\net8.0\20Demo_MultiCastDelegate.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\bin\Debug\net8.0\20Demo_MultiCastDelegate.deps.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\bin\Debug\net8.0\20Demo_MultiCastDelegate.runtimeconfig.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\bin\Debug\net8.0\20Demo_MultiCastDelegate.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\bin\Debug\net8.0\20Demo_MultiCastDelegate.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.AssemblyInfo.cs
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\refint\20Demo_MultiCastDelegate.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\20Demo_MultiCastDelegate.genruntimeconfig.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\20Demo_MultiCastDelegate\obj\Debug\net8.0\ref\20Demo_MultiCastDelegate.dll

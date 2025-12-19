@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\bin\Debug\net8.0\19Demo_EventAndDelegate.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\bin\Debug\net8.0\19Demo_EventAndDelegate.deps.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\bin\Debug\net8.0\19Demo_EventAndDelegate.runtimeconfig.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\bin\Debug\net8.0\19Demo_EventAndDelegate.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\bin\Debug\net8.0\19Demo_EventAndDelegate.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.AssemblyInfo.cs
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\refint\19Demo_EventAndDelegate.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\19Demo_EventAndDelegate.genruntimeconfig.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\19Demo_EventAndDelegate\obj\Debug\net8.0\ref\19Demo_EventAndDelegate.dll
