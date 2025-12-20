@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\bin\Debug\net8.0\22Demo_Collection.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\bin\Debug\net8.0\22Demo_Collection.deps.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\bin\Debug\net8.0\22Demo_Collection.runtimeconfig.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\bin\Debug\net8.0\22Demo_Collection.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\bin\Debug\net8.0\22Demo_Collection.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.AssemblyInfo.cs
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\refint\22Demo_Collection.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\22Demo_Collection.genruntimeconfig.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\22Demo_Collection\obj\Debug\net8.0\ref\22Demo_Collection.dll
