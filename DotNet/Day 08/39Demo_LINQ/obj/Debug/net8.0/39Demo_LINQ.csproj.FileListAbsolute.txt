@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\bin\Debug\net8.0\39Demo_LINQ.exe
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\bin\Debug\net8.0\39Demo_LINQ.deps.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\bin\Debug\net8.0\39Demo_LINQ.runtimeconfig.json
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\bin\Debug\net8.0\39Demo_LINQ.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\bin\Debug\net8.0\39Demo_LINQ.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.AssemblyInfo.cs
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\refint\39Demo_LINQ.dll
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.pdb
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\39Demo_LINQ.genruntimeconfig.cache
+C:\Users\IET\Desktop\Chinmay.NET\Chinmay.NET\39Demo_LINQ\obj\Debug\net8.0\ref\39Demo_LINQ.dll
